@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--JavaScipt-->
+  <script src="javascript/navigation-bar.js" defer></script>
+  <script src="javascript/general.js" defer></script>
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="stylesheet/swiper.css">
+  <link rel="stylesheet" href="stylesheet/recommended-row.css">
+  <link rel="stylesheet" href="stylesheet/game-page-block-style.css">
+  <link rel="stylesheet" href="stylesheet/navigation-bar.css">
+  <link rel="stylesheet" href="stylesheet/logo.css">
+  <link rel="stylesheet" href="stylesheet/general.css">
+  <!--Fonts - Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--Title-->
+  <title>Home</title>
+  <!--Slider - https://swiperjs.com/get-started-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+  <script src="javascript/swiper.js" defer></script>
+
+</head>
+
+<body>
+  <!--Nav bar-->
+  <nav class="navbar">
+    <div class="brand-title">UB Games</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <!--Within images are icons downloaded for catagory (From RemixIcon.com)-->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Bestsellers</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Slider - SwiperJS-->
+  <!-- Slider main container -->
+  <div class="swiper">
+    
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide"><img src="images/hogwarts-legacy-large.webp"></div>
+      <div class="swiper-slide"><img src="images/destiny-2-large.png"></div>
+      <div class="swiper-slide"><img src="images/fifa-23-large.webp"></div>
+      ...
+    </div>
+    
+    <div class="swiper-pagination"></div>
+
+    
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> 
+  </div>
+
+
+  <!--Recommended-->
+  <div class="recommended-page-block">
+    <div class="recommended-title">Recommended</div>
+    <div class="recommended-row">
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Trending-->
+  <!--Current CSS is same as recommended, change the class names or CSS-->
+  <div class="recommended-page-block">
+    <div class="recommended-title">Trending</div>
+    <div class="recommended-row">
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+      <div class="recommended-game-card">
+        <div class="recommended-game-cover">
+          <img class="recommended-image" src="game-cover/gta-5.jpg" alt="Game Cover">
+        </div>
+        <div class="recommended-card-info">Grand Theft Auto V</div>
+        <div class="recommended-price">£11.73</div>
+        <div class="recommened-button-row">
+          <button class="recommended-buy-now">
+            <!-- <img class="recommended-cart-icon" src="images/shopping-cart-icon.png" alt="Shopping Cart Icon"> -->
+            Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Bestsellers / Latest releases / Pre-orders Columns-->
+  <div class="page-block">
+    <div class="game-column">
+      <div class="header">
+        <div class="title-row">
+          <div class="title">Bestsellers</div>
+          <button class="discover-button">Discover all</button>
+        </div>
+        <div class="description">Current popular games</div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-column">
+      <div class="header">
+        <div class="title-row">
+          <div class="title">Latest releases</div>
+          <button class="discover-button">Discover all</button>
+        </div>
+        <div class="description">Latest games</div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-column">
+      <div class="header">
+        <div class="title-row">
+          <div class="title">Pre-orders</div>
+          <button class="discover-button">Discover all</button>
+        </div>
+        <div class="description">Pre-purchase upcoming games</div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-row">
+        <div class="game-cover-column">
+          <img class="game-cover" src="game-cover/gta-5.jpg">
+        </div>
+        <div class="game-info-column">
+          <div class="game-name-row">
+            <div class="game-name">
+              Grand Theft Auto V
+            </div>
+          </div>
+          <div class="price-row">
+            <div class="price">£11.73</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

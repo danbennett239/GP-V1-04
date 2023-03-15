@@ -1,0 +1,86 @@
+div {
+  font-family: Roberto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.page-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+.game-column {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.title-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.title {
+  font-size: 30px; 
+  font-weight: bold;
+}
+.discover-button {
+  background-color: rgb(199, 73,58);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 26px;
+  width: 100px; /*Add padding over H/W*/
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.description {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.game-row {
+  display: flex;
+  flex-direction: row;
+  width: 385px;
+  height: 100px;
+  display: inline-flex;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(230, 230,230);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.game-cover-column {
+  margin-right: 10px;
+}
+.game-cover {
+  height: 100px;
+  width: 75px;
+  object-fit: cover;
+}
+.game-info-column {
+  flex: 1;
+}
+.game-name-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.game-name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.price {
+  padding-left: 5px;
+}

@@ -1,0 +1,19 @@
+/* Find solution to bug with images overlapping */
+.swiper {
+  width: 77rem;
+  height: 40rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.swiper-slide img {
+  width: 77rem;
+  height: 40rem;
+  object-fit: cover;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+  color: rgb(199, 73,58);;
+}
+/* BUG - Not changing color */
+.swiper .swiper-pagination-bullet-active {
+  color: rgb(199, 73,58);;
+}
